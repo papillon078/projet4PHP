@@ -1,0 +1,48 @@
+body{
+    background-image: url("../img/Societe-de-renovation-à-Lille.jpg");
+    background-size: 100%;
+    background-position: top;   
+    background-repeat: no-repeat;
+    color: white;
+    background-color: #222;
+}
+h1{
+    justify-content: center;
+    margin-top:3%;
+    width: 640px;
+    background-color: rgba(260, 175, 56, 0.8);
+    font-size: 70px;
+    margin-bottom: 6%;
+
+}
+h1 ~ p{
+    display: inline;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+}
+h2{
+    margin-top: 18%;
+
+}
+
+.gallery_box_single{
+    font-size:12px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    display: inline-block;
+    float:left;
+    margin-left: 10px;
+}
+.quality{
+    color: #48484A;
+    background-color: #f7F7F7;
+    padding: 4%;
+}
+footer{
+    background-color: #222222;
+    padding-bottom: 2%;
+}
