@@ -1,0 +1,13 @@
+footer{
+    background-color: #222222;
+    padding-bottom: 2%;
+}
+h1, h2{
+    text-align: center;
+    font-weight: bold;
+}
+h3{
+    text-decoration: underline;
+    color: black;
+}
+
