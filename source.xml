@@ -2,8 +2,9 @@
 <website>
     <page id="1">
         <menu>Accueil</menu>
-        <title>Accueil - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1>Maçonnerie Ocordo</h1>
+        <title>Accueil - Maçonnerie Ocordo</title> 
+        <!-- CDATA 1 commence ici -->
+        <content><![CDATA[<h1>Maçonnerie Ocordo</h1> 
 <p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation de maisons et de construction d’extensions horizontales ou verticales de maisons.</p>
 <p>Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
 <p>Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
@@ -18,11 +19,12 @@
 
 
 
-]]></content>
+]]></content> <!-- le CDATA 1 s'arrète ici -->
     </page>
     <page id="2">
         <menu>Qui sommes nous?</menu>
-        <title>En apprendre plus sur nous - Maçonnerie Ocordo</title>
+        <title>En apprendre plus sur nous - Maçonnerie Ocordo</title> 
+        <!-- CDATA 2 commence ici -->
         <content><![CDATA[<h1>Qui sommes-nous?</h1>
 <h2>L’AGENCE DE TRAVAUX OCORDO</h2>
 <h3>Présentation de notre entreprise</h3>
@@ -61,10 +63,12 @@ Pourquoi la Simplicité ? Parce que vous avez un seul interlocuteur qui est disp
 
 <p>Pourquoi le Prix ? Nous avons professionnalisé notre organisation et mis en place des outils de gestion et d’organisation exclusifs. C’est pourquoi nous sommes en mesure de vous faire bénéficier de prix très compétitifs et d’un excellent rapport qualité/prix.<p>
 bénéficier de prix très compétitifs et d’un excellent rapport qualité/prix pour vos travaux de rénovation.]]></content>
+        <!-- le CDATA 2 s'arrète ici -->
     </page>
     <page id="3">
         <menu>Nos clients témoignent</menu>
         <title>Avis clients - Maçonnerie Ocordo</title>
+        <!-- CDATA 3 commence ici -->
         <content><![CDATA[<h1>Nos clients témoignent</h1>
 <div class="testimonials-list">
     <div class="quote">
@@ -78,10 +82,12 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <p>PJ9e7S9L</p>
     </div>
 </div>]]></content>
+        <!-- le CDATA 3 s'arrète ici -->
     </page>
     <page id="4">
         <menu>Contact</menu>
         <title>Contactez nous - Maçonnerie Ocordo</title>
+        <!-- CDATA 4 commence ici -->
         <content><![CDATA[<h1>Contact et Devis</h1>    
 <p><iframe style="border: 0; float: right;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
 <p>POUR OBTENIR UN DEVIS GRATUIT 3 POSSIBILITÉS :</p>
@@ -104,5 +110,6 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <textarea name="your-message" cols="40" rows="10" class="form-control textarea validates-as-required"  ></textarea>
     </form>
 </div>]]></content>
+        <!-- le CDATA 4 s'arrète ici -->
     </page>
 </website>
