@@ -12,13 +12,12 @@
     <title></title>
   </head>
   <body>
-
     <?php
-    foreach ($xml->page as $page) {
+    foreach($xml->page as $page) {
      ?>
-<a href="index.php?id=<?= $page['id'] ?>"><?= $page->menu ?></a>
+<a href="<?= $page['id'] ?>.html"><?= $page->menu ?></a>
 <?php } ?>
-<?= linkind() ?>
+<?= $xml->page[$id-1]->content ?>
 <script src="assets/js/jquery-3.4.1.min.js"></script>
 <script src="assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
   </body>
