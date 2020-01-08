@@ -1,3 +1,4 @@
+<?php $xml = simplexml_load_file('source.xml'); ?>
 <header>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="index.php">
@@ -8,18 +9,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+                <?php foreach($xml->page as $page){ ?>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><?= $xml->page[0]->menu; ?><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/projet4PHP/<?= $page['id'] ?>.html"><?= $page->menu; ?><span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="proExp.php"><?= $xml->page[1]->menu; ?></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><?= $xml->page[2]->menu; ?></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="MathCE1Grid.php"><?= $xml->page[3]->menu; ?></a>
-                </li>
+                <?php } ?>
             </ul>
         </div>
     </nav>

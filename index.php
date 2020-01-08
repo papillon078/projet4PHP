@@ -4,6 +4,7 @@ $xml = simplexml_load_file('source.xml');
             //echo $xml->page[2]->content;
             //echo $xml->page[1]['id'];
 ?>
+                    <?php include 'indexCtrl.php' ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,13 +13,14 @@ $xml = simplexml_load_file('source.xml');
         <link rel="stylesheet" href="assets/css/style.css"/>
     </head>
     <body>  
-        <?php include 'header.html' ?>
+        <?php include 'header.php' ?>
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <?php include 'indexCtrl.php' ?>
+                <?= $xml->page[$id - 1]->content ?>
                 </div>
             </div>
+            
         </div>
         <div class="mt-5">
             <div class="container-fluid">
