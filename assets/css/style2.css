@@ -1,0 +1,23 @@
+body{
+  background-color: #f7F7F7;
+}
+h1, h2{
+    text-align: center;
+    font-weight: bold;
+}
+h3{
+    text-decoration: underline;
+    color: black;
+}
+.quality{
+    border-top:40px solid #222222;
+    color: #48484A;
+    background-color: #f7F7F7;
+    padding: 4%;
+}
+footer{
+    color:white;
+    background-color: #222222;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}

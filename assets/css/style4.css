@@ -1,0 +1,25 @@
+body{
+  background-image: url("../img/greyBack.jpg");
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #48484A;
+}
+input{
+  width: 200px;
+}
+form{
+  color: white;
+  margin-top:40%;
+}
+.quality{
+    color: #48484A;
+    background-color: #f7F7F7;
+    padding: 4%;
+}
+footer{
+    color:white;
+    background-color: #222222;
+    padding-bottom: 2%;
+    margin-top: 2%;
+}

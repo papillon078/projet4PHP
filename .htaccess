@@ -1,0 +1,7 @@
+#vérifie que la réécriture est bien activée pour pouvoir utiliser le Rewriterule
+<ifModule mod_rewrite.c>
+#Mise en route du mode réécriture
+RewriteEngine On
+#masque de réécriture d'url
+RewriteRule ^([0-9]).html$ index.php?id=$1
+</ifModule>

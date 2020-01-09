@@ -1,7 +1,7 @@
 body{
     background-image: url("../img/Societe-de-renovation-à-Lille.jpg");
     background-size: 100%;
-    background-position: top;   
+    background-position: top;
     background-repeat: no-repeat;
     color: white;
     background-color: #222;
@@ -43,6 +43,7 @@ h2{
     padding: 4%;
 }
 footer{
+    color:white;
     background-color: #222222;
     padding-bottom: 2%;
 }
