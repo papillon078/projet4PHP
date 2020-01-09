@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-primary">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="index.php">
             <img src="assets/img/ocordoLogo.png" width="70" height="60" class="d-inline-block align-top"/>
         </a>
@@ -7,7 +7,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <?php foreach ($website->page as $page) {
                     ?>
                     <li class="nav-item active">
@@ -21,8 +21,4 @@
             </form>
         </div>
     </nav>
-    <img src="assets/img/Societe-de-renovation-à-Lille.jpg" width="100%" height="300" class="d-inline-block align-top"/>
-    <ol class="breadcrumb">
-        Société de rénovation à Lille
-    </ol>
 </header>
